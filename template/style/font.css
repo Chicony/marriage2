@@ -7,9 +7,9 @@
 }
 
 @font-face {
-    font-family: "Carmen";
+    font-family: "Playfair";
     font-display: swap;
-    src: url("../font/Carmen.woff2") format("woff2");
+    src: url("../font/Playfair.woff2") format("woff2");
     font-style: normal;
-    font-weight: 400;
+    font-weight: 700;
 }
