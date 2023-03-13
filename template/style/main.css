@@ -41,7 +41,7 @@ body
 {
     clip-path: polygon(57% 0, 100% 0, 100% 100%, 100% 100%, 0 100%, 0% 55%);
     margin-top: 47px;
-    margin-left: -34px;
+    margin-left: -35px;
 }
 
 .banner-logo .logo-symbol
@@ -59,8 +59,7 @@ body
 .section
 {
     text-align: center;
-    margin-bottom: 60px;
-    text-transform: uppercase;
+    margin-bottom: 100px;
 }
 
 .section.list
@@ -85,6 +84,7 @@ body
 {
     font-size: 50px;
     letter-spacing: 4px;
+    text-transform: uppercase;
 }
 
 .marriage-date
@@ -97,6 +97,7 @@ body
 .section .title
 {
     font-size: 28px;
+    text-transform: uppercase;
 }
 
 .section .description
@@ -130,21 +131,20 @@ body
 .container-image
 {
     text-align: center;
-    margin-bottom: 40px;
+    margin-bottom: 100px;
 }
 
 .main-image
 {
     width: 900px;
-    height: 450px;
-    object-fit: cover;
-    object-position: top;
+    height: 800px;
+    object-fit: contain;
 }
 
 .container-map
 {
     height: 400px;
-    margin-bottom: 40px;
+    margin-bottom: 100px;
 }
 
 .color-gamma
@@ -212,7 +212,7 @@ body
     .main-image
     {
         width: 680px;
-        height: 400px;
+        height: 600px;
     }
 
     .list-item .list-title, 
@@ -226,7 +226,7 @@ body
     .main-image
     {
         width: 500px;
-        height: 300px;
+        height: 500px;
     }
 
     .banner
@@ -285,8 +285,15 @@ body
         height: 50px;
     }
 
-    .section
+    .main-image
     {
-        margin-bottom: 40px;
+        height: 400px;
+    }
+
+    .section,
+    .container-map,
+    .container-image
+    {
+        margin-bottom: 70px;
     }    
 }
